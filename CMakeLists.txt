@@ -4,7 +4,7 @@ project(opengl_learning VERSION 1.0)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(opengl_learning src/tutorial1.cpp)
+add_executable(opengl_learning src/tutorial2.cpp)
 
 find_package(glad CONFIG REQUIRED)
 target_link_libraries(opengl_learning PRIVATE glad::glad)
